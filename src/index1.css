@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #00307B;
+  --color-brand-dark: #000B23;
+  --color-brand-secondary: #002E6D;
+  --color-brand-tertiary: #021A41;
+  --color-brand-accent: #C9A84C;
+  --color-brand-accent-hover: #DDBF6E;
+  --color-dark: #1A1A1A;
+  --color-gray-custom: #6B7280;
+  --color-bg-light: #F7F8FA;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F7F8FA;
+    font-family: 'Inter', sans-serif;
+    color: #1A1A1A;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .container-custom {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .section-padding {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  @media (min-width: 768px) {
+    .section-padding {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+  }
+}
+
+/* Анимации для модального окна */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.4s ease-out;
+}
+
+/* Убираем скролл при открытом модальном окне */
+body:has(.fixed.inset-0.z-50) {
+  overflow: hidden;
+}
