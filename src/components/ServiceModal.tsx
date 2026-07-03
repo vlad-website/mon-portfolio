@@ -1,4 +1,4 @@
-import { X, CheckCircle, Globe, CreditCard, Calendar, Layout, Smartphone, Shield } from 'lucide-react';
+import { X, CheckCircle } from 'lucide-react';
 
 interface ServiceModalProps {
   service: {
@@ -14,6 +14,8 @@ interface ServiceModalProps {
 
 const ServiceModal = ({ service, isOpen, onClose }: ServiceModalProps) => {
   if (!isOpen || !service) return null;
+
+  const Icon = service.icon;
 
   return (
     <div 
@@ -35,7 +37,7 @@ const ServiceModal = ({ service, isOpen, onClose }: ServiceModalProps) => {
         <div className="px-6 md:px-10 pb-10">
           <div className="flex items-center gap-4 mb-6">
             <div className="w-14 h-14 bg-brand/10 rounded-xl flex items-center justify-center">
-              <service.icon className="w-7 h-7 text-brand" />
+              <Icon className="w-7 h-7 text-brand" />
             </div>
             <h2 className="text-2xl md:text-3xl font-bold font-['Playfair_Display'] text-dark">
               {service.title}
