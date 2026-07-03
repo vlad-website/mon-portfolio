@@ -1,0 +1,8 @@
+# robots.txt pour Web-Artisan
+User-agent: *
+Allow: /
+Disallow: /assets/
+Disallow: /src/
+
+# Sitemap
+Sitemap: https://web-artisan.fr/sitemap.xml
