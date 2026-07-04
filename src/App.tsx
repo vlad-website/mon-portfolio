@@ -2,6 +2,8 @@ import SEO from './components/SEO';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import Hero from './sections/Hero';
+import TechStack from './components/TechStack';
+import CTABanner from './components/CTABanner';
 import Services from './sections/Services';
 import Portfolio from './sections/Portfolio';
 import About from './sections/About';
@@ -14,6 +16,8 @@ function App() {
       <Header />
       <main>
         <Hero />
+        <TechStack />      {/* ← Новый блок со стеком */}
+        <CTABanner />      {/* ← Новый CTA-блок */}
         <Services />
         <Portfolio />
         <About />
