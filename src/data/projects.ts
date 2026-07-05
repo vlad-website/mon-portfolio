@@ -1,6 +1,6 @@
 import { Project } from '../types';
-import port1Image from '../../portfolio/Port1.2.png';
-import port1Image2 from '../../portfolio/Port1.3.png';
+import port1Image from '../portfolio/Port1.2.png';
+import port1Image2 from '../portfolio/Port1.3.png';
 
 export const projects: Project[] = [
   {
