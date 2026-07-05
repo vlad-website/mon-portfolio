@@ -1,4 +1,6 @@
 import { Project } from '../types';
+import port1Image from '../../portfolio/Port1.2.png';
+import port1Image2 from '../../portfolio/Port1.3.png';
 
 export const projects: Project[] = [
   {
@@ -7,19 +9,17 @@ export const projects: Project[] = [
     category: "Site vitrine",
     description: "Conception et développement d’un site web corporate moderne pour une entreprise spécialisée dans l’ingénierie et la construction.",
     fullDescription: "L’objectif principal était de créer une présence digitale professionnelle et crédible, mettant clairement en valeur l’expertise, les services et les compétences techniques de l’entreprise.",
-    image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=1200&h=800&fit=crop",
-      "../../portfolio/Port1.2.png",
-      "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=1200&h=800&fit=crop",
-      "/portfolio/Port1.2.png",
-    ],
-    technologies: ["React", "TypeScript", "Vite", "JavaScript", "API Rest"],
-    results: "+30% de visites en ligne en 2 mois",
-    client: "Entreprise",
-    year: "2025",
-    url: "#",
-  },
+    image: port1Image,
+      images: [
+        port1Image,
+        port1Image2,
+      ],
+      technologies: ["React", "TypeScript", "Vite", "JavaScript", "API Rest"],
+      results: "+30% de visites en ligne en 2 mois",
+      client: "Entreprise",
+      year: "2025",
+      url: "#",
+    },
   {
     id: 2,
     title: "Salon Coiffure Élégance",
