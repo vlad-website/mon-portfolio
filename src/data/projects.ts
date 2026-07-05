@@ -7,9 +7,9 @@ export const projects: Project[] = [
     category: "Site vitrine",
     description: "Conception et développement d’un site web corporate moderne pour une entreprise spécialisée dans l’ingénierie et la construction.",
     fullDescription: "L’objectif principal était de créer une présence digitale professionnelle et crédible, mettant clairement en valeur l’expertise, les services et les compétences techniques de l’entreprise. J’ai pris en charge l’ensemble du processus de développement depuis zéro : structuration du projet, création d’une mise en page responsive, intégration de l’interface utilisateur, développement des éléments interactifs, optimisation des performances et préparation du site pour sa mise en production. Une attention particulière a été portée à la typographie, à la structuration du contenu, à la simplicité de navigation et à la création d’une identité visuelle professionnelle adaptée au secteur de l’ingénierie et de la construction.",
-    image: "/portfolio/Port1.png",
+    image: "/portfolio/Port1.1.png",
       images: [
-        "/portfolio/Port1.2.png"
+        "/portfolio/Port1.png"
       ],
       technologies: ["React", "TypeScript", "Vite", "JavaScript", "API Rest"],
       results: "+30% de visites en ligne en 2 mois",
