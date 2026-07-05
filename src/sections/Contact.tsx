@@ -137,32 +137,32 @@ const Contact = () => {
             </div>
 
             {/* Социальные сети */}
-            <div className="mt-8 pt-8 border-t border-gray-200/30">
+            {/* <div className="mt-8 pt-8 border-t border-gray-200/30">
               <h4 className="text-sm font-semibold text-dark mb-4">Retrouvez-moi sur</h4>
-              <div className="flex gap-4">
-                <a
+              <div className="flex gap-4"> */}
+                {/* <a
                   href="#"
                   className="w-12 h-12 bg-bg-light rounded-full flex items-center justify-center hover:bg-brand transition-colors group"
                   aria-label="LinkedIn"
                 >
                   <span className="text-dark group-hover:text-white text-sm font-medium">in</span>
-                </a>
-                <a
-                  href="#"
+                </a> */}
+                {/* <a
+                  href="https://github.com/vlad-website"
                   className="w-12 h-12 bg-bg-light rounded-full flex items-center justify-center hover:bg-brand transition-colors group"
                   aria-label="GitHub"
                 >
-                  <span className="text-dark group-hover:text-white text-sm font-medium">gh</span>
-                </a>
-                <a
+                  <span className="text-dark group-hover:text-white text-sm font-medium">GitHub</span>
+                </a> */}
+                {/* <a
                   href="#"
                   className="w-12 h-12 bg-bg-light rounded-full flex items-center justify-center hover:bg-brand transition-colors group"
                   aria-label="Instagram"
                 >
                   <span className="text-dark group-hover:text-white text-sm font-medium">ig</span>
-                </a>
-              </div>
-            </div>
+                </a> */}
+              {/* </div>
+            </div> */}
           </div>
 
           {/* ПРАВАЯ КОЛОНКА - ФОРМА */}

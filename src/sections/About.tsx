@@ -89,7 +89,11 @@ const About = () => {
                 <div className="text-center">
                   {/* Иконка/Аватар */}
                   <div className="w-32 h-32 mx-auto bg-gradient-to-br from-brand/20 to-brand/5 rounded-full flex items-center justify-center mb-6 border-4 border-white shadow-lg">
-                    <span className="text-5xl">👨‍💻</span>
+                    <img
+                      src="/portfolio/avatar.png"
+                      alt="Avatar"
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
                   <h3 className="text-2xl font-bold font-['Playfair_Display'] text-dark">

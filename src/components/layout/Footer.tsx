@@ -8,7 +8,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold font-['Playfair_Display'] text-white">
-              VD<span className="text-brand">.</span>
+              WEB-ARTISAN<span className="text-brand">.</span>
             </h3>
             <p className="text-sm text-white/60 mt-1">
               Création de sites web pour artisans et commerces
@@ -25,7 +25,7 @@ const Footer = () => {
               LinkedIn
             </a>
             <a
-              href="#"
+              href="https://github.com/vlad-website"
               className="text-white/60 hover:text-brand transition-colors"
               aria-label="GitHub"
             >
